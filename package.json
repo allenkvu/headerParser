@@ -1,0 +1,14 @@
+{
+  "name": "header_parser",
+  "version": "1.0.0",
+  "description": "Api returns users ip address, language, os system info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "allenkvu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
