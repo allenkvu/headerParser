@@ -1,14 +1,24 @@
 {
-  "name": "header_parser",
+  "name": "header-parser",
   "version": "1.0.0",
-  "description": "Api returns users ip address, language, os system info",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allenkvu/headerParser.git"
   },
   "author": "allenkvu",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.14.0"
-  }
+  "bugs": {
+    "url": "https://github.com/allenkvu/headerParser/issues"
+  },
+  "homepage": "https://github.com/allenkvu/headerParser#readme"
 }
